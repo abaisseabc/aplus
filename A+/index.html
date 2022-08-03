@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A+</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    
+    <!--promo-->
+    <section class="promo">
+        <div class="container">
+            <div class="promo__nav">
+                <div class="promo__logo">
+                    <a href="./index.html"><img src="icon/logo.png" alt="logo"></a>
+                </div>
+                <nav class="promo__href">
+                    <ul>
+                        <li><a href="#">Программа обучения</a></li>
+                        <li><a href="#">Выпусники</a></li>
+                        <li><a href="#">Как поступить</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="promo__main">
+                <div class="promo__photo">
+                    <img src="./img/tablet.png" alt="tablet">
+                </div>
+                <div class="promo__information">
+                    <div class="promo__heading">
+                        Учеба ещё никогда не была такой интересной!
+                    </div>
+                    <div class="promo__text">
+                        Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.
+                    </div>
+                    <div class="promo__btn">
+                        <button>Подать заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Promises-->
+    <section class="promises">
+        <div class="container">
+            <div class="promises__items">
+                <div class="promises__item">
+                    <img src="./icon/calendar.png" alt="" class="promises__img">
+                    <div class="promises__heading">
+                        Гибкий график обучения
+                    </div> 
+                    <div class="promises_text">
+                        Современный темп жизни требует гибкого подхода к расписанию.
+                    </div>
+                </div>
+                <div class="promises__item">
+                    <img src="./icon/key.png" alt="">
+                    <div class="promises__heading">
+                        Практические знания
+                    </div>
+                    <div class="promises_text">
+                        На одной теории далеко не уедешь, поэтому мы обучаем на практике.
+                    </div>
+                </div>
+                <div class="promises__item">
+                    <img src="./icon/computer.png" alt="">
+                    <div class="promises__heading">
+                        Не оставим без опыта
+                    </div>
+                    <div class="promises_text">
+                        Хорошие специалисты всегда в цене и Вы станете именно таким.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Education-->
+    <section class="education">
+        <div class="container">
+            <div class="education__heading">
+                Формы обучения
+            </div>
+            <div class="table__fromseducation">
+                <table>
+                    <tbody>
+                        <tr>
+                          <td class="firstlvl">Название</td>
+                          <td class="firstlvl bigwith">Длительность</td>
+                          <td class="firstlvl">Описание</td>
+                        </tr>
+                        <tr>
+                          <td class="secondlvl">Дневное обучение</td>
+                          <td class="secondlvl bigwith">4 года</td>
+                          <td class="secondlvl__description">Наиболее интенсивный вариант обучения, для тех, кто не терпит компромиссов ни в чем.</td>
+                        </tr>
+                        <tr>
+                          <td class="secondlvl">Вечернее обучение</td>
+                          <td class="secondlvl bigwith">5 лет</td>
+                          <td class="secondlvl__description">Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
+                        </tr>
+                      </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!--Feedback-->
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__right">
+                <div class="feedback__right__heading">
+                  Заинтересовались <br> обучением на нашей <br> кафедре?
+                </div>
+                <div class="feedback__right__text">
+                    Заполните короткую форму обратной связи и отправьте нам.
+                </div>
+                <div class="feedback__right__text">
+                    Мы подготовим для вас <br> индивидуальное предложение <br> и выйдем на связь!
+                </div>
+                <div class="feedback__right__text__important">
+                    <strong>
+                       Внимание! 
+                    </strong>
+                    Все поля <br> обязательные для заполнения.
+                </div>
+            </div>
+            <div class="feedback__heading">
+                Обратная связь
+            </div>
+            <form class="contacts__form" action="" method="post">
+                <table>
+                  <tr>
+                    <td class="title">
+                      <label for="fullname">ФИО:</label>
+                    </td>
+                    <td class="field">
+                      <input type="text" id="fullname" name="fullname" placeholder="Представьтесь, пожалуйста">
+                    </td>
+                  </tr>
+      
+                  <tr>
+                    <td class="title">
+                      <label for="age">Возраст:</label>
+                    </td>
+                    <td class="field">
+                      <input type="text" id="age" name="age" placeholder="Укажите возраст">
+                    </td>
+                  </tr>
+                    
+                  <tr>
+                    <td class="title">Пол:</td>
+                    <td class="field ">
+                      <label class="checkbox__sex">
+                        <input type="radio" id="man" name="sex" value="man" class="chexbox__input">
+                            Мужской
+                      </label>
+                      <label class="checkbox__sex">
+                        <input type="radio" id="woman" name="sex" value="woman" class="chexbox__input"">
+                            Женский
+                      </label>
+                    </td>
+                  </tr>
+      
+                  <tr>
+                    <td class="title">
+                      <label for="message">Вопрос:</label>
+                    </td>
+                    <td class="field">
+                      <textarea name="message" id="message" placeholder="Сообщите всё, что считаете нужным"></textarea>
+                    </td>
+                  </tr>
+      
+                  <tr>
+                    <td class="title"></td>
+                    <td class="field">
+                      <input type="submit" class="btn__form" value="Отправить">
+                    </td>
+                  </tr>
+                </table>
+              </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <img src="./icon/logotype__footer.png" alt="logo" class="footer__left__img">
+                <div class="footer__left__text">
+                    197101, г. Санкт-Петербург, <br>
+                    пр. Кронверкский, д. 49
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__item">
+                    <div class="footer__heading">
+                        Обучение
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Расписание</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Предметы</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Практика</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__heading">
+                        Выпускники
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Достижения</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Отзывы</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Найти</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__heading">
+                        Как поступить
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">На коммерцию</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Целевой набор</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">На бюджет</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__heading">
+                        Контакты
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Обратная связь</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Схема проезда</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#">Телефон/факс</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
